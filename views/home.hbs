@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    {{>navbar}}
+    <section class="home">
+        <div class="currentTemp">
+            <h1>30<sup>o</sup></h1>
+            <h3>30<sup>o</sup> / 20<sup>o</sup></h3>
+        </div>
+        <div class="location">
+            <div class="currentLocation" style="margin-left: 400px;">
+                <img width="30" src="/images/gps.png" alt="">
+                <p>Bangalore</p>
+            </div>
+            <img src="/images/home1.png" alt="">
+        </div>
+    </section>
+    {{>footer}}
+</body>
+
+</html>
